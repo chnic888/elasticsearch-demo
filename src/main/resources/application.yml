@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: elasticsearch-demo
+
+server:
+  port: 8090
+  compression:
+    enabled: true
+    mime-types: application/json
+    min-response-size: 4096
